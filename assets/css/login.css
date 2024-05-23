@@ -16,6 +16,64 @@ body{
     height: 500px;
     background: #fff; /* cor de fundo branco */
 }
+#login h2{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.caixa{
+    width: 80%;
+    height: 45px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 2px;
+    outline: none;
+    background: #ededed;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    color:#333;
+    text-indent: 5px;
+}
+.caixa::placeholder{
+    font-size: 0.7em;
+}
+#bt-sociais{
+    width: 80%;
+    height: 45px;
+    margin-left: 10%;
+    /* background: #e1f816; */
+    margin-top: 10px;
+}
+.social{
+    width: 20%;
+    height: 45px;
+    border-radius: 10px;
+    background: #30d8ee;
+    float: left;
+}
+#face{
+    background: #000 url('../img/facebook.png') no-repeat center center;
+    background-size: 50%;
+}
+#google{
+    background: #000 url('../img/google.png') no-repeat center center;
+    background-size: 50%;
+    margin-left: 6.6%;margin-left: 6.6%;
+    margin-right: 6.6%;
+}
+#apple{
+    background: #000 url('../img/apple.png') no-repeat center center;
+    background-size: 50%;
+}
+#xbox{
+    background: #000 url('../img/xbox.png') no-repeat center center;
+    background-size: 50%;
+    margin-left: 6.6%;
+}
 #logo-header{
     width: 150px;
     height: auto;
